@@ -207,6 +207,14 @@ a:hover {
 	background-position: center;
 	background-size: cover;
 }
+.sct8 {
+	width: 100%;
+	height: 103vh;
+	/* background-image: url(''); */
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
 .arrow-down {
 	display: inline-block;
 	width: 31px;

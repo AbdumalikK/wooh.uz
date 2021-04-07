@@ -726,7 +726,7 @@ function changeLang() {
 
 
 <!-- footer -->
-<div class="section sct5">
+<div class="section sct8">
     <h1 class="text-center" style="color: gray;">ООО Sof Gigienik<p class="yellow mt-2">Copyright © 2020</p>
             <div class="row pt-120">
                 <div class="col-3 text-center">
