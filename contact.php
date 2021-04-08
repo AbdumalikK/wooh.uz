@@ -1,45 +1,69 @@
 <?php
-include('core/config.php');
-include_once "core/lang.php";
+include_once 'core/lang.php';
+include_once 'core/config.php';
 
+// set date and time to Tashkent
+date_default_timezone_set('Asia/Tashkent');
 
-// if submit send
+$email = '';
+$message = '';
 if(isset($_POST['submit'])) {
-// get of these value to variable
 $email = $_POST['email'];
 $message = $_POST['comment'];
 
 
 $to = 'lalakucash@gmail.com';
-$messageEmail = $message; 
  
-//Sending email
-if(mail($to, $email, $messageEmail)){
-    echo 'Your mail has been sent successfully.';
+if(mail($to, $email, $message)){
+    // echo 'Your mail has been sent successfully.';
 } else{
-    echo 'Unable to send email. Please try again.';
+    // echo 'Unable to send email. Please try again.';
 }
 
+// telegram
+// function sendMessage($chatID, $messaggio, $token) {
+//     echo "sending message to " . $chatID . "\n";
+
+//     $url = "https://api.telegram.org/bot" . $token . "/sendMessage?chat_id=" . $chatID;
+//     $url = $url . "&text=" . urlencode($messaggio);
+//     $ch = curl_init();
+//     $optArray = array(
+//             CURLOPT_URL => $url,
+//             CURLOPT_RETURNTRANSFER => true
+//     );
+//     curl_setopt_array($ch, $optArray);
+//     $result = curl_exec($ch);
+//     curl_close($ch);
+//     return $result;
+// }
+
+
+
+
+
+
+
+
 // Send message to telegram
-// $apiToken = "1461774021:AAHA2Eq6cOtFHhfh7qKCmhFs8y0VujLvepw";
-// $message_tg = "Email: $email \n \n Xabar: $message";
+$apiToken = "1790943678:AAGSNPyXCDS6723wOS1op53VHzMgmsxG_SY";
+$message_tg = "Email: $email \n Xabar: $message";
 
-// $data = [
-//     'chat_id' => '838418753',
-//     'text' => $message_tg
-// ];
+$data = [
+    'chat_id' => '1533586294',
+    'text' => $message_tg,
+];
 
-// $response = file_get_contents('https://api.telegram.org/bot$apiToken/sendMessage?'.http_build_query($data).'/');
+file_get_contents('https://api.telegram.org/bot'.$apiToken.'/sendMessage?'.http_build_query($data).'/');
 
+$message_date = date("d-m-Y H:i:s");
+$params = array(':email' => $email, ':message' => $message, ':message_date' => $message_date);
+$sql = "INSERT INTO contact (email, comment, message_date) VALUES (:email, :message, :message_date)";
+$stmt = $conn->prepare($sql);
 
-// insert data to database
-$contact = "INSERT INTO contact (email, comment) VALUES ('$email', '$message')";
-
-// if query sent
-if($connect->query($contact) == TRUE) {
-    echo header("Location: message_sent.php");
+if($stmt->execute($params)) {
+    header("Location: message_sent.php");
 } else {
-    echo "Error: ".$contact."</b>".$connect->$error;
+    echo "Error: ".$sql."</b>".$conn->$error;
 }
 
 }

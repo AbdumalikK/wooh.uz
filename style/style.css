@@ -342,7 +342,8 @@ a:hover {
 
 /* Contact */
 .bg-lalaku{
-	background-color: #FFEE00;
+	color: white;
+	background-color: #952883;
 }
 .mt-contact {
 	margin-top: 100px;
@@ -382,7 +383,7 @@ a:hover {
 	padding: 8px;
 }
 .post {
-	background-color: white;
+	background-color: black;
 	padding: 10px;
 	border-radius: 12px;
 }

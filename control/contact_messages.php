@@ -1,10 +1,11 @@
 <?php  
 include "../core/config.php";
 
-$get_post = "SELECT * FROM contact ORDER BY id DESC";
-$post = mysqli_query($connect, $get_post);
+$sql = "SELECT * FROM contact ORDER BY id DESC";
+$stmt = $conn->prepare($sql);
+$stmt->execute();
 
-while ($row = $post->fetch_assoc()) {
+while ($row = $stmt->fetch()) {
 
 
 ?>
@@ -24,7 +25,7 @@ while ($row = $post->fetch_assoc()) {
 <div class="container">
     <div class="row">
         <div class="col-lg-12">
-            <h2 class="text-center p-5">Contact Message #<?php echo $row['id'];?></h2>
+            <h2 class="text-center p-5">Xabar raqami #<?php echo $row['id'];?></h2>
             <div class="wrap">
                 <h3>E-mail</h3>
                 <p class="post"><?php echo $row['email']; ?></p>
