@@ -164,7 +164,7 @@ function changeLang() {
     </div>
     
     <div class="text-center down">
-        <a href="#thirdPage">	
+        <a href="#firstPage">	
             <img class="arrow-down animate-arrow" src="style/icons/arrow-down.svg" alt="down">
         </a>
     </div>
@@ -391,7 +391,7 @@ function changeLang() {
         </div>
 
         <div class="text-center down pt-3">
-        <a href="#fifthPage">	
+        <a href="#secondPage">	
            <img class="arrow-down animate-arrow" src="style/icons/arrow-down.svg" alt="down">
         </a>
         </div>

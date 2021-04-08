@@ -37,25 +37,22 @@ if(mail($to, $email, $message)){
 //     return $result;
 // }
 
-
-
-
-
-
-
+$message_date = date("d-m-Y H:i:s");
 
 // Send message to telegram
 $apiToken = "1790943678:AAGSNPyXCDS6723wOS1op53VHzMgmsxG_SY";
-$message_tg = "Email: $email \n Xabar: $message";
+$message_tg = "Email: $email \n Xabar: $message \n Vaqti: $message_date";
 
 $data = [
     'chat_id' => '1533586294',
     'text' => $message_tg,
 ];
 
-file_get_contents('https://api.telegram.org/bot'.$apiToken.'/sendMessage?'.http_build_query($data).'/');
+file_get_contents('https://api.telegram.org/bot'.$apiToken.'/sendMessage?'.http_build_query($data));
+// end telegram
 
-$message_date = date("d-m-Y H:i:s");
+
+
 $params = array(':email' => $email, ':message' => $message, ':message_date' => $message_date);
 $sql = "INSERT INTO contact (email, comment, message_date) VALUES (:email, :message, :message_date)";
 $stmt = $conn->prepare($sql);
@@ -67,6 +64,9 @@ if($stmt->execute($params)) {
 }
 
 }
+
+
+
 ?>
 
 

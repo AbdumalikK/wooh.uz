@@ -88,7 +88,7 @@ function changeLang() {
 					
 									<li class="nav-links">
 									<a href="products.php" class="nested-links"><?= _PRODUCT ?></a>
-									<ul class="nested-nav mt-4">
+									<!-- <ul class="nested-nav mt-4">
 										<li>
 											<a href="products.php#firstPage" class="nested-links">LALAKU PANTS</a>
 										</li>
@@ -104,7 +104,7 @@ function changeLang() {
 										<li>
 											<a href="products.php#fifthPage" class="nested-links">LALAKU KN 95 MASKS</a>
 										</li>
-									</ul>
+									</ul> -->
 									</li>
 									<li class="nav-links">
 									<a href="contact.php" class="nested-links"><?= _CONTACT ?></a>

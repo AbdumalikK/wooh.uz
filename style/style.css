@@ -405,5 +405,13 @@ a:hover {
 	background-color: rgb(224, 0, 132, 0.5);
 }
 .bg-title4 {
-	background-color: rgb(228, 44, 52, 0.5);
+	background-color: rgba(228, 44, 52, 0.5);
+}
+a.nested-links {
+    border-bottom: 1px solid black;
+    padding-bottom: 8px;
+}
+a.nested-links:hover {
+    border-bottom: 2px solid #952883;
+    padding-bottom: 5px;
 }
