@@ -9,8 +9,8 @@ include_once "core/lang.php";
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
 	<meta name="author" content="Abdumalik Karimov">
-	<meta name="description" content="Sofgigienik offical sayti">
-	<meta name="keywords" content="sofgigienik,lalaku,">
+	<meta name="description" content="Wooh.uz World of hygienic, gigienik mahsulotlar barchasi bizda">
+	<meta name="keywords" content="wooh.uz, wooh, woohuz, worldofhygienic, hygienic, delux, deluxmama, lalaku, gigienik">
 	<link rel="stylesheet" href="style/bootstrap4/css/bootstrap.min.css">
 	<link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
@@ -21,6 +21,31 @@ include_once "core/lang.php";
 	<!-- <script src="style/js/easings.min.js"></script> -->
 	<!-- <script src="style/js/scrolloverflow.min.js"></script> -->
 	<!-- <script src="style/js/fullpage.js"></script> -->
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-HDVQXYCN26"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'G-HDVQXYCN26');
+	</script>
+	 <!-- Yandex.Metrika counter -->
+	 <script type="text/javascript" >
+    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+    m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+    ym(75774640, "init", {
+            clickmap:true,
+            trackLinks:true,
+            accurateTrackBounce:true,
+            webvisor:true,
+            ecommerce:"dataLayer"
+    });
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/75774640" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
 </head>
 
 <body>
@@ -380,7 +405,7 @@ function changeLang() {
 <section class="sct8 section">
 	<div class="row">
 		<div class="col-12 text-center">
-		<h1 class="text-center" style="color: gray;">ООО Sof Gigienik<p class="yellow mt-2">Copyright © 2020</p>
+		<h1 class="text-center" style="color: gray;">ООО World of Hygienic<p class="yellow mt-2">Copyright © 2021</p>
 
 			<!-- <p class="wd-1020 p-3">
 				Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
@@ -388,24 +413,19 @@ function changeLang() {
 		</div>
 	</div>
 		<div class="row mt-footer footer">
-                <div class="col-3 text-center d-flex align-items-center justify-content-center">
-                    <a href="https://www.instagram.com/lalaku.uzbekistan/">
+                <div class="col-4 text-center d-flex align-items-center justify-content-center">
+					<a href="https://www.instagram.com/world.of.hygienic/">
                         <i class="fab fa-instagram social-icon"></i>
                     </a>
                 </div>
-                <div class="col-3 text-center d-flex align-items-center justify-content-center">
-                    <a href="https://www.facebook.com/lalaku.uzbekistan/">
+                <div class="col-4 text-center d-flex align-items-center justify-content-center">
+					<a href="https://www.facebook.com/World_of_Hygiene/">
                         <i class="fab fa-facebook-f social-icon"></i>
                     </a>
                 </div>
-                <div class="col-3 text-center d-flex align-items-center justify-content-center">
-                    <a href="https://www.youtube.com/channel/UCCHvBrlmF-gCUR60zFiAexw">
+                <div class="col-4 text-center d-flex align-items-center justify-content-center">
+					<a href="https://t.me/worldofhygiene/">
                         <i class="fab fa-youtube social-icon"></i>
-                    </a>
-                </div>
-                <div class="col-3 text-center d-flex align-items-center justify-content-center">
-                    <a href="">
-                        <i class="fab fa-whatsapp social-icon"></i>
                     </a>
                 </div>
             </div>

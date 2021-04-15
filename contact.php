@@ -44,7 +44,7 @@ $apiToken = "1790943678:AAGSNPyXCDS6723wOS1op53VHzMgmsxG_SY";
 $message_tg = "Email: $email \n Xabar: $message \n Vaqti: $message_date";
 
 $data = [
-    'chat_id' => '1533586294',
+    'chat_id' => '1737665',
     'text' => $message_tg,
 ];
 
@@ -158,31 +158,31 @@ if($stmt->execute($params)) {
     
         <div class="row mt-contact text-center">
         
-            <div class="col-lg-3">
+            <div class="col-lg-4">
                 <h3 class="contact-title">call</h3>
                 <hr>
-                <p>+998 90 000 00 00</p>
-                <p>+998 90 000 00 00</p>
-                <p>+998 90 000 00 00</p>
+                <p>+998 90 550 06 01</p>
+                <p>+998 99 906 09 90</p>
+                <p>+998 33 338 00 08</p>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-4">
                 <h3 class="contact-title mt-4 mt-lg-0">e-mail</h3>
                 <hr>
-                <p>info@sofgigienik.com</p>
+                <p>w.o.h@inbox.ru</p>
                 <p>import@sofgigienik.com</p>
                 <p>export@sofgigienik.com</p>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-4">
                 <h3 class="contact-title mt-4 mt-lg-0">address</h3>
                 <hr>
                 <p>48 Khirmontepa 2-th Passage
 Tashkent, Uzbekistan</p>
             </div>
-            <div class="col-lg-3">
+            <!-- <div class="col-lg-3">
                 <h3 class="contact-title mt-4 mt-lg-0">web</h3>
                 <hr>
                 <p>@lalaku.uzbekistan</p>
-            </div>
+            </div> -->
         </div>    
     </div>
     <!-- end container titles -->

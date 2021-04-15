@@ -9,8 +9,8 @@ include_once "core/lang.php";
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
 	<meta name="author" content="Abdumalik Karimov">
-	<meta name="description" content="Sofgigienik offical sayti">
-	<meta name="keywords" content="sofgigienik,lalaku,">
+	<meta name="description" content="Wooh.uz World of hygienic, gigienik mahsulotlar barchasi bizda">
+	<meta name="keywords" content="wooh.uz, wooh, woohuz, worldofhygienic, hygienic, delux, deluxmama, lalaku, gigienik">
 	<link rel="stylesheet" href="style/bootstrap4/css/bootstrap.min.css">
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/css/products.css">
@@ -24,6 +24,31 @@ include_once "core/lang.php";
 	<script src="style/js/scrolloverflow.min.js"></script>
     <script src="style/js/fullpage.js"></script>
     <script src="style/js/mobile-product.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HDVQXYCN26"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-HDVQXYCN26');
+    </script>
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript" >
+    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+    m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+    ym(75774640, "init", {
+            clickmap:true,
+            trackLinks:true,
+            accurateTrackBounce:true,
+            webvisor:true,
+            ecommerce:"dataLayer"
+    });
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/75774640" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
 </head>
 <body class="">
 <style>
@@ -723,30 +748,30 @@ function changeLang() {
 
 <!-- footer -->
 <div class="section sct8">
-    <h1 class="text-center" style="color: gray;">ООО Sof Gigienik<p class="yellow mt-2">Copyright © 2020</p>
+    <h1 class="text-center" style="color: gray;">ООО World of Hygienic<p class="yellow mt-2">Copyright © 2021</p>
             <div class="row pt-120">
-                <div class="col-3 text-center">
-                    <a href="https://www.instagram.com/lalaku.uzbekistan/">
+                <div class="col-4 text-center">
+                    <a href="https://www.instagram.com/world.of.hygienic/">
                         <i class="fab fa-instagram social-icon"></i>
                     </a>
                 </div>
-                <div class="col-3 text-center">
-                    <a href="https://www.facebook.com/lalaku.uzbekistan/">
+                <div class="col-4 text-center">
+                    <a href="https://www.facebook.com/World_of_Hygiene/">
                         <i class="fab fa-facebook-f social-icon"></i>
                     </a>
                 </div>
-                <div class="col-3 text-center">
+                <!-- <div class="col-3 text-center">
                     <a href="https://www.youtube.com/channel/UCCHvBrlmF-gCUR60zFiAexw">
                         <i class="fab fa-youtube social-icon"></i>
                     </a>
-                </div>
-                <div class="col-3 text-center">
-                    <a href="">
-                        <i class="fab fa-whatsapp social-icon"></i>
+                </div> -->
+                <div class="col-4 text-center">
+                    <a href="https://t.me/worldofhygiene/">
+                        <i class="fab fa-telegram social-icon"></i>
                     </a>
                 </div>
             </div>
-</h1>
+    </h1>
 <div class="row pt-120">
     <div class="col-md-6 col-12 d-flex justify-content-center">
         <a href="https://www.google.com/maps/place/%D0%9E%D1%84%D0%B8%D1%81+%D0%B1%D1%80%D0%B5%D0%BD%D0%B4%D0%B0+%22LALAKU%22,+%D0%9E%D0%9E%D0%9E+%22SOF+GIGIENIK%22/@41.3247619,69.3359945,21z/data=!4m13!1m7!3m6!1s0x38aef457cc74f7e5:0x5142b528b7c5e4d8!2s35+Khirmontepa+2-th+Passage,+Tashkent,+Uzbekistan!3b1!8m2!3d41.3249853!4d69.3360588!3m4!1s0x38aef51bb28be239:0x9e3b62489b4f1490!8m2!3d41.3247974!4d69.3360713">
@@ -757,7 +782,7 @@ function changeLang() {
     <div class="col-md-6 col-12 mt-4 mt-md-0 mt-lg-0 d-flex justify-content-center">
         <a href="tel:+998 94 480 00 77">
             <i class="fas fa-phone-alt footer-icon mr-2"></i>
-            <p class="d-inline">+998 94 480 00 77</p>
+            <p class="d-inline">+998 90 550 06 01</p>
         </a>
     </div>
 </div>
