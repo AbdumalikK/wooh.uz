@@ -1,15 +1,15 @@
 <?php
 define("_HOME", "HOME");
-define("_PRODUCT1_NAME", "LALAKU PANTS");
+define("_PRODUCT1_NAME", "Finesse");
 define("_PRODUCT1_TITLE", 'Baby diapers "LALAKU" panties');
-define("_PRODUCT2_NAME", "LALAKU DIAPERS");
+define("_PRODUCT2_NAME", "Dielux");
 define("_PRODUCT2_TITLE", 'Baby diapers "LALAKU" are specially created from natural materials using advanced 
 technologies to provide maximum comfort for Your child.');
-define("_PRODUCT3_NAME", "LALAKU MAMA POSTPARTUM PADS");
+define("_PRODUCT3_NAME", "Nelliy");
 define("_PRODUCT3_TITLE", 'Baby diapers "LALAKU" panties');
-define("_PRODUCT4_NAME", "LALAKU MAMA SANITARY NAPKINS");
+define("_PRODUCT4_NAME", "Sahara");
 define("_PRODUCT4_TITLE", "Baby diapers 'LALAKU' panties");
-define("_PRODUCT5_NAME", "LALAKU KN 95 MASKS");
+define("_PRODUCT5_NAME", "NOZI");
 define("_PRODUCT5_TITLE", "Baby diapers 'LALAKU' panties");
 
 // side-menu

@@ -4,14 +4,14 @@ define("_PRODUCT1_NAME", "FINESSE");
 define("_PRODUCT1_TITLE", "Aloe vera ekstrakti bilan mahsus boyitilgan Finesse kundalik qistirmalari tabiiy antibiotik hususiyatini o'z ichiga oladi.  Kundalik foydalanish uchun mo'ljallangan.  Maksimal terapevtik va profilaktik
 Tabiiy (100%) paxtadan tayyorlangan!
 Takrorlanmaydigan tuyg'u, takrorlanmas his!");
-define("_PRODUCT2_NAME", "LALAKU DIAPERS");
+define("_PRODUCT2_NAME", "Dielux");
 define("_PRODUCT2_TITLE", 'حفاضات الأطفال "LALAKU" مصنوعة خصيصًا من مواد طبيعية باستخدام متقدم
 تقنيات لتوفير أقصى درجات الراحة لطفلك.');
-define("_PRODUCT3_NAME", "LALAKU MAMA POSTPARTUM PADS");
+define("_PRODUCT3_NAME", "Nelliy");
 define("_PRODUCT3_TITLE", "Baby diapers 'LALAKU' panties");
-define("_PRODUCT4_NAME", "LALAKU MAMA SANITARY NAPKINS");
+define("_PRODUCT4_NAME", "Saxara");
 define("_PRODUCT4_TITLE", "Baby diapers 'LALAKU' panties");
-define("_PRODUCT5_NAME", "LALAKU KN 95 MASKS");
+define("_PRODUCT5_NAME", "NOZI");
 define("_PRODUCT5_TITLE", "Baby diapers 'LALAKU' panties");
 // slide-menu
 define("_PRODUCT", "Mahsulotlar");
