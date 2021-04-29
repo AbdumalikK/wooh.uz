@@ -12,6 +12,6 @@ if(isset($_GET['lang']) && !empty($_GET['lang'])){
 if(isset($_SESSION['lang'])){
 	include "lang/lang_".$_SESSION['lang'].".php";
 } else {
-	include "lang/lang_en.php";
+	include "lang/lang_ru.php";
 }
 ?>

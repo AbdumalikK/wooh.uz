@@ -60,14 +60,14 @@ function changeLang() {
 		<div class="col-12">
 			<form method="GET" action="" id="form_lang">
 				<div class="lang-card text-center">
-					<h1>WELCOME TO THE SOF HYGIENIC INTERNATIONAL WEBSITE</h1>
+					<h1>Sofgigienik saytiga hush kelibsiz</h1>
 					<hr>
-					<h2>SELECT YOUR LANGUAGE</h2>
-					<button type="submit" value="arabic" name="lang" class="btn d-block m-auto" id="lang" <?php if(isset($_SESSION['lang']) && $_SESSION['lang'] === 'arabic'); ?>>
-						<p class="lang-size">Arabic</p>
+					<h2>Tilni tanlang</h2>
+					<button type="submit" value="uz" name="lang" class="btn d-block m-auto" id="lang" <?php if(isset($_SESSION['lang']) && $_SESSION['lang'] === 'uz'); ?>>
+						<p class="lang-size">Uzbek tili</p>
 					</button>
-					<button type="submit" value="en" name="lang" class="btn d-block m-auto" id="lang" <?php if(isset($_SESSION['lang']) && $_SESSION['lang'] === 'en'); ?>>
-						<p class="lang-size">English</p>
+					<button type="submit" value="ru" name="lang" class="btn d-block m-auto" id="lang" <?php if(isset($_SESSION['lang']) && $_SESSION['lang'] === 'ru'); ?>>
+						<p class="lang-size">Rus tili</p>
 					</button>
 				</div>
 			</form>
@@ -151,24 +151,28 @@ function changeLang() {
 	<!-- section 0 -->
 	<div class="sct0 section">
 		<!-- main text -->
-		<div class="row">
-			<div class="col-12 text-center">
-				<div class="d-block bg-title1">
+		<!-- <div class="row"> -->
+			<!-- <div class="col-12 text-center"> -->
+				<div class="d-block bg-title1 text-center">
 					<h1 class="text-bold d-inline"><?= _PRODUCT1_NAME ?></h1>
 				</div>
-				<div class="wd-1020">
+				<!-- <div class="wd-1020">
 					<p class="p-3 m-0"><?= _PRODUCT1_TITLE ?></p>
-				</div>
-				<div class="row main-content-button pt-md-5">
+				</div> -->
+				<div class="main-content-button pt-md-5 row">
 					<div class="col-12 col-md-6 text-md-right text-center">
-						<button type="button" class="col-md-5 col-7 btn btn-black px-5 textColor-left"><a href="contact.php">
+						<button type="button" class="col-md-5 col-7 btn btn-black px-5 textColor-left">
+						<a href="contact.php">
 							<?= _CONTACT ?>
-						</a></button>
+						</a>
+						</button>
 					</div>
 					<div class="col-12 col-md-6 pt-4 pt-md-0 text-md-left text-center">
-						<button type="button" class="col-md-5 col-7 btn btn-white px-5 textColor-right"><a href="products.php#firstPage">
+						<button type="button" class="col-md-5 col-7 btn btn-white px-5 textColor-right">
+						<a href="products.php#firstPage">
 							<?= _LEARN_MORE ?>
-						</a></button>
+						</a>
+						</button>
 					</div>
 				</div>
 				<div class="text-center down pt-md-4 pt-2">
@@ -176,22 +180,22 @@ function changeLang() {
 				   <img class="arrow-down animate-arrow" src="style/icons/arrow-down.svg" alt="down">
 				</a>
 			    </div>
-			</div>
-		</div>
+			<!-- </div> -->
+		<!-- </div> -->
 		<!-- end main text -->
 	</div>
 <!-- section 1 -->
 <section class="sct1 section">
-	<div class="row">
-		<div class="col-12 text-center">
-		<div class="d-block bg-title1">
+	<!-- <div class="row"> -->
+		<!-- <div class="col-12 text-center"> -->
+		<div class="d-block bg-title1 text-center">
 			<h1 class="text-bold pt-120 d-inline"><?= _PRODUCT2_NAME ?></h1>
 		</div>
-			<p class="wd-1020 p-3">
+			<!-- <p class="wd-1020 p-3">
 			<?= _PRODUCT2_TITLE ?>
-			</p>
-		</div>
-	</div>
+			</p> -->
+		<!-- </div> -->
+	<!-- </div> -->
 		<div class="row mt-90">
 		 <div class="col-12 col-md-6 text-md-right text-center">
 			 <button type="button" class="col-md-5 col-7 btn btn-black px-5 textColor-left"><a href="contact.php">
@@ -221,9 +225,9 @@ function changeLang() {
 		<div class="d-block bg-title2">
 			<h1 class="text-bold pt-120 d-inline"><?= _PRODUCT3_NAME ?></h1>
 		</div>
-			<p class="wd-1020 p-3">
+			<!-- <p class="wd-1020 p-3">
 			<?= _PRODUCT3_TITLE ?>
-			</p>
+			</p> -->
 		</div>
 	</div>
 		<div class="row mt-90">
@@ -252,9 +256,9 @@ function changeLang() {
 		<div class="d-block bg-title2">
 			<h1 class="text-bold pt-120 d-inline"><?= _PRODUCT4_NAME ?></h1>
 		</div>
-			<p class="wd-1020 p-3">
+			<!-- <p class="wd-1020 p-3">
 			<?= _PRODUCT1_TITLE ?>
-			</p>
+			</p> -->
 		</div>
 	</div>
 		<div class="row mt-90">
@@ -283,9 +287,9 @@ function changeLang() {
 		<div class="d-block bg-title3">
 			<h1 class="text-bold pt-120 d-inline">LALAKU KN 95 MASKS</h1>
 		</div>
-			<p class="wd-1020 p-3">
+			<!-- <p class="wd-1020 p-3">
 				Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
-			</p>
+			</p> -->
 		</div>
 	</div>
 		<div class="row mt-90">
@@ -314,9 +318,9 @@ function changeLang() {
 		<div class="d-block bg-title3">
 			<h1 class="text-bold pt-120 d-inline">LALAKU KN 95 MASKS</h1>
 		</div>
-			<p class="wd-1020 p-3">
+			<!-- <p class="wd-1020 p-3">
 				Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
-			</p>
+			</p> -->
 		</div>
 	</div>
 		<div class="row mt-90">
@@ -345,9 +349,9 @@ function changeLang() {
 		<div class="d-block bg-title4">
 			<h1 class="text-bold pt-120 d-inline">LALAKU KN 95 MASKS</h1>
 		</div>
-			<p class="wd-1020 p-3">
+			<!-- <p class="wd-1020 p-3">
 				Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
-			</p>
+			</p> -->
 		</div>
 	</div>
 		<div class="row mt-90">
@@ -376,9 +380,9 @@ function changeLang() {
 		<div class="d-block bg-title4">
 			<h1 class="text-bold pt-120 d-inline">LALAKU KN 95 MASKS</h1>
 		</div>
-			<p class="wd-1020 p-3">
+			<!-- <p class="wd-1020 p-3">
 				Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
-			</p>
+			</p> -->
 		</div>
 	</div>
 		<div class="row mt-90">
@@ -441,7 +445,7 @@ function changeLang() {
 	</div>
 </div>
 <!-- end whole page container -->
-	<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+	<!-- <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script> -->
     <script src="style/bootstrap4/js/bootstrap.min.js"></script>
 	<!-- <script src="style/js/index.js"></script> -->
 	<!-- <link rel="stylesheet" href="style/css/fullpage.css"> -->

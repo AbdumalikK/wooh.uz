@@ -70,95 +70,29 @@ function changeLang() {
 <?php if(!isset($_SESSION['lang'])) { ?>
 	<div class="row lang-position">
 		<div class="col-12">
-			<form method="GET" action="" id="form_lang">
+        <form method="GET" action="" id="form_lang">
 				<div class="lang-card text-center">
-					<h1>WELCOME TO THE SOF HYGIENIC INTERNATIONAL WEBSITE</h1>
+					<h1>Sofgigienik saytiga hush kelibsiz</h1>
 					<hr>
-					<h2>SELECT YOUR LANGUAGE</h2>
-					<button type="submit" value="arabic" name="lang" class="btn d-block m-auto" id="lang" <?php if(isset($_SESSION['lang']) && $_SESSION['lang'] === 'arabic'); ?>>
-						<p class="lang-size">Arabic</p>
+					<h2>Tilni tanlang</h2>
+					<button type="submit" value="uz" name="lang" class="btn d-block m-auto" id="lang" <?php if(isset($_SESSION['lang']) && $_SESSION['lang'] === 'uz'); ?>>
+						<p class="lang-size">Uzbek tili</p>
 					</button>
-					<button type="submit" value="en" name="lang" class="btn d-block m-auto" id="lang" <?php if(isset($_SESSION['lang']) && $_SESSION['lang'] === 'en'); ?>>
-						<p class="lang-size">English</p>
+					<button type="submit" value="ru" name="lang" class="btn d-block m-auto" id="lang" <?php if(isset($_SESSION['lang']) && $_SESSION['lang'] === 'ru'); ?>>
+						<p class="lang-size">Rus tili</p>
 					</button>
 				</div>
-			</form>
+		</form>
 		</div>
 	</div>
 	<div class="shadow">
-<? } ?>
+<? } 
+include 'inc/nav.php';
+?>
 <!-- end checking -->
 
 
-<!-- whole page container -->
-<div id="fullpage">
-    <div class="container px-0">
-			<div class="row">
-				<div class="col-6">
-					<!-- navbar -->
-				   <nav class="navbar fixed-top">
-							   <div class="logo">
-							   <a href="index.php">
-                                   <!-- <img src="style/logo.svg" width="53" height="53" alt="logo" id="logo"> -->
-                                   <h3 class="text-dark pt-3">WOOH.UZ</h3>
-                                </a>
-							   </div>
-			
-							<button type="button" class="btn burger">	
-								<div class="line1"></div>
-								<div class="line2"></div>
-								<div class="line3"></div>
-							</button>
-					</nav>
-					<!-- end navbar -->
-				</div>
-
-				<div class="col-6">
-					<!-- burger menu -->
-								<ul class="main-nav">
-									<!-- <div class="row mr-0"> -->
-										<div class="my-4 px-0 logo">
-										<a href="index.php"><img src="style/logo.svg" alt="logo"></a>
-										</div>
-									<!-- </div> -->
-                                    <li class="nav-links">
-                                        <a href="index.php"><?= _HOME ?></a>
-                                    </li>
-									<li class="nav-links">
-									<a href="products.php" class="nested-links"><?= _PRODUCT ?></a>
-									<ul class="nested-nav mt-4">
-										<li>
-											<a href="products.php#firstPage" class="nested-links">LALAKU PANTS</a>
-										</li>
-										<li>
-											<a href="products.php#secondPage" class="nested-links">LALAKU DIAPERS</a>
-										</li>
-										<li>
-											<a href="products.php#thirdPage" class="nested-links">LALAKU MAMA POSTPARTUM PADS</a>
-										</li>
-										<li>
-											<a href="products.php#forthPage" class="nested-links">LALAKU MAMA SANITARY NAOKINS</a>
-										</li>
-										<li>
-											<a href="products.php#fifthPage" class="nested-links">LALAKU KN 95 MASKS</a>
-										</li>
-									</ul>
-									</li>
-									<li class="nav-links">
-									<a href="contact.php" class="nested-links"><?= _CONTACT ?></a>
-									</li>
-									<!-- <li class="nav-links">
-									<a href="contact.php" class="nested-links"><?= _ABOUT ?></a>
-									</li> -->
-								</ul>
-				   <!-- end burger menu -->
-				</div>
-			</div>
-        </div>
-        
-	<div id="menu-shadow" class="">
-
-
+<div id="menu-shadow" class="">
 <!-- section 0 -->
 <div class="section sct0 bg-white">
     <!-- carousel images -->
@@ -194,6 +128,7 @@ function changeLang() {
         </a>
     </div>
 <!-- end carousel -->
+
 
         <!-- main text -->
 
@@ -298,13 +233,13 @@ function changeLang() {
 <div class="container">
 		<div class="row">
 			<div class="col-12 text-center">
-                <div class="row mt-90 px-4">
+                <div class="row px-4">
                     <div class="col-lg-6 col-12">
                             <h1 class="text-bold pt-0"><?= _PRO1_NAME ?></h1>
                             <p><?= _PRO1_TITLE ?></p>
                     </div>
 
-                    <div class="col-lg-6 col-12 mt-5">
+                    <div class="col-lg-6 col-12 mt-1">
                         <div class="col-12 my-0 mx-auto">
                             <table class="table table-condensed">
                                 <tr>
@@ -470,7 +405,7 @@ function changeLang() {
                     </div>
 
                     <div class="col-6">
-                        <div class="description-content spec-item-left">
+                        <div class="spec-item-left">
                             <h1 class="text-bold pt-0 d-flex justify-content-start pl-4"><?= _PRO2_NAME ?></h1>
                             <p><?= _PRO2_TITLE ?></p>
                         </div>
@@ -490,7 +425,7 @@ function changeLang() {
 <div class="container">
     <div class="row">
 			<div class="col-12 text-center">
-                <div class="row mt-90 px-4">
+                <div class="row px-4">
                     <div class="col-lg-6 col-12">
                         <h1 class="text-bold pt-0"><?= _PRO2_NAME ?></h1>
                         <p><?= _PRO2_TITLE ?></p>
@@ -618,7 +553,7 @@ function changeLang() {
 <div class="container">
     <div class="row">
 			<div class="col-12 text-center">
-                <div class="row mt-90 px-4">
+                <div class="row px-4">
                     <div class="col-lg-6 col-12">
                     <h1 class="text-bold pt-0 d-flex justify-content-end"><?= _PRO3_NAME ?></h1>
                             <p><?= _PRO3_TITLE ?></p>
@@ -798,6 +733,11 @@ function changeLang() {
 
 	</div>
 </div>
+<style>
+.container {
+    height: 100%;
+}
+</style>
 <!-- end whole page container -->
 	<script src="style/js/index.js"></script>
 	<script src="style/js/config-scrolling.js"></script>
