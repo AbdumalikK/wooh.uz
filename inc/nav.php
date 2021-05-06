@@ -7,8 +7,8 @@ echo '<div id="fullpage">
 				   <nav class="navbar fixed-top">
 							   <div class="logo">
 							   <a href="index.php">
-                                   <!-- <img src="style/logo.svg" width="53" height="53" alt="logo" id="logo"> -->
-                                   <h3 class="text-dark pt-3">WOOH.UZ</h3>
+                                <img src="style/logo-black.png" width="70" height="70" alt="logo" id="logo">
+                                <!-- <h3 class="text-dark pt-3">WOOH.UZ</h3> -->
                                 </a>
 							   </div>
 			
@@ -26,7 +26,7 @@ echo '<div id="fullpage">
 								<ul class="main-nav">
 									<!-- <div class="row mr-0"> -->
 										<div class="my-4 px-0 logo">
-										<a href="index.php"><img src="style/logo.svg" alt="logo"></a>
+										<a href="index.php"><img src="style/logo-black.png" width="70" height="70" alt="logo"></a>
 										</div>
 									<!-- </div> -->
                                     <li class="nav-links">
@@ -34,7 +34,7 @@ echo '<div id="fullpage">
                                     </li>
 									<li class="nav-links">
 									<a href="products.php" class="nested-links">'._PRODUCT.'</a>
-									<ul class="nested-nav mt-4">
+									<!-- <ul class="nested-nav mt-4">
 										<li>
 											<a href="products.php#firstPage" class="nested-links">LALAKU PANTS</a>
 										</li>
@@ -50,7 +50,7 @@ echo '<div id="fullpage">
 										<li>
 											<a href="products.php#fifthPage" class="nested-links">LALAKU KN 95 MASKS</a>
 										</li>
-									</ul>
+									</ul> -->
 									</li>
 									<li class="nav-links">
 									<a href="contact.php" class="nested-links">'._CONTACT.'</a>

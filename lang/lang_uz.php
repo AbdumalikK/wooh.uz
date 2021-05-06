@@ -27,7 +27,7 @@ define("_ABOUT", "Biz haqimizda");
 define("_LEARN_MORE", "Batafsil");
 
 // CONTACT 
-define("_CONTACT_TITLE", "نحن هنا للمساعدة");
+define("_CONTACT_TITLE", "Biz Yordam berishga tayyormiz");
 
 
 // PRODUCT PAGE

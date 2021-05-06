@@ -144,44 +144,44 @@ a:hover {
 	color: rgb(196, 21, 15);
 }
 .sct0 {
-	width: 100%;
+	width: 100%!important;
 	height: 104vh;
-	background-image: url('images/1.jpg');
+	background-image: url('images/1.jpg')!important;
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: cover;
+	background-size: cover!important;
 }
 .sct1 {
-	width: 100%;
+	width: 100%!important;
 	height: 104vh;
-	background-image: url('images/2.jpg');
+	background-image: url('images/2.jpg')!important;
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: cover;
+	background-size: cover!important;
 }
 .sct2 {
-	width: 100%;
+	width: 100%!important;
 	height: 103vh;
-	background-image: url('images/3.jpg');
+	background-image: url('images/3.jpg')!important;
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: cover;
+	background-size: cover!important;
 }
 .sct3 {
-	width: 100%;
+	width: 100%!important;
 	height: 103vh;
-	background-image: url('images/4.jpg');
+	background-image: url('images/4.jpg')!important;
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: cover;
+	background-size: cover!important;
 }
 .sct4 {
-	width: 100%;
+	width: 100%!important;
 	height: 103vh;
-	background-image: url('images/5.jpg');
+	background-image: url('images/5.jpg')!important;
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: cover;
+	background-size: cover!important;
 }
 .sct5 {
 	width: 100%;

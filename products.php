@@ -1,96 +1,14 @@
 <?php
 include_once "core/lang.php";
+include_once "inc/header.php";
 ?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>LaLaKOO</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
-	<meta name="author" content="Abdumalik Karimov">
-	<meta name="description" content="Wooh.uz World of hygienic, gigienik mahsulotlar barchasi bizda">
-	<meta name="keywords" content="wooh.uz, wooh, woohuz, worldofhygienic, hygienic, delux, deluxmama, lalaku, gigienik">
-	<link rel="stylesheet" href="style/bootstrap4/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style/style.css">
-    <link rel="stylesheet" href="style/css/products.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="style/bootstrap4/js/bootstrap.min.js"></script>
-	<!-- <script src="style/js/index.js"></script> -->
-	<link rel="stylesheet" href="style/css/fullpage.css">
-	<script src="style/js/easings.min.js"></script>
-	<script src="style/js/scrolloverflow.min.js"></script>
-    <script src="style/js/fullpage.js"></script>
-    <script src="style/js/mobile-product.js"></script>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HDVQXYCN26"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-HDVQXYCN26');
-    </script>
-    <!-- Yandex.Metrika counter -->
-    <script type="text/javascript" >
-    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-    m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
-
-    ym(75774640, "init", {
-            clickmap:true,
-            trackLinks:true,
-            accurateTrackBounce:true,
-            webvisor:true,
-            ecommerce:"dataLayer"
-    });
-    </script>
-    <noscript><div><img src="https://mc.yandex.ru/watch/75774640" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-    <!-- /Yandex.Metrika counter -->
-</head>
 <body class="">
-<style>
-  /* Make the image fully responsive */
-  .carousel-inner img {
-    width: 100%;
-    height: 100%;
-  }
-  .btn-black{
-    z-index: 1;
-  }
-  </style>
-<script>
-function changeLang() {
-	document.getElementById('form_lang').submit();
-}
-</script>
-<!-- checking, if lang has not choosen  -->
-<?php if(!isset($_SESSION['lang'])) { ?>
-	<div class="row lang-position">
-		<div class="col-12">
-        <form method="GET" action="" id="form_lang">
-				<div class="lang-card text-center">
-					<h1>Sofgigienik saytiga hush kelibsiz</h1>
-					<hr>
-					<h2>Tilni tanlang</h2>
-					<button type="submit" value="uz" name="lang" class="btn d-block m-auto" id="lang" <?php if(isset($_SESSION['lang']) && $_SESSION['lang'] === 'uz'); ?>>
-						<p class="lang-size">Uzbek tili</p>
-					</button>
-					<button type="submit" value="ru" name="lang" class="btn d-block m-auto" id="lang" <?php if(isset($_SESSION['lang']) && $_SESSION['lang'] === 'ru'); ?>>
-						<p class="lang-size">Rus tili</p>
-					</button>
-				</div>
-		</form>
-		</div>
-	</div>
-	<div class="shadow">
-<? } 
+<link rel="stylesheet" href="style/css/products.css">
+
+<?php
+include_once "inc/select-lang.php";
 include 'inc/nav.php';
 ?>
-<!-- end checking -->
-
 
 <div id="menu-shadow" class="">
 <!-- section 0 -->
@@ -114,9 +32,9 @@ include 'inc/nav.php';
 
     <div class="row product-contact-top-first">
         <div class="col-12 col-md-12 text-center">
-            <a href="contact.php">
+            <a href="finessa.php">
                 <button type="button" class="col-5 col-md-3 col-lg-2 btn btn-black textColor-left">
-            <?= _CONTACT ?>
+            <?= _LEARN_MORE ?>
             </button>
             </a>
         </div>
@@ -130,195 +48,9 @@ include 'inc/nav.php';
 <!-- end carousel -->
 
 
-        <!-- main text -->
 
-<div class="container-fluid">
-		<div class="row">
-			<div class="col-12 pt-120 text-center z-index title">
-                <div class="row align-items-end mobile-item-spec">
-
-                    <div class="col-lg-6 col-12">
-                        <div class="description-content">
-                            <h1 class="text-bold pt-0 d-flex justify-content-end"><?= _PRO1_NAME ?></h1>
-                            <p><?= _PRO1_TITLE ?></p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6 col-12">
-                        <div class="col-7 my-0 mx-auto">
-                            <table class="table table-condensed">
-                                <tr>
-                                    <th>
-                                        <h2 class="d-inline-block item-number">3</h2>
-                                        <p class="d-inline-block line-h">size</p>
-                                    </th>
-                                    <th>
-                                        <h2 class="d-inline-block item-number">54</h2>
-                                        <p class="d-inline-block line-h">pcs</p>
-                                    </th>
-                                    <th>
-                                        <h6 class="d-inline-block item-size">MIDI</h6>
-                                    </th>
-                                    <th>
-                                        <p class="d-inline-block item-size">4-9 KG</p>
-                                    </th>
-                                </tr>
-    
-                                <tr>
-                                    <th>
-                                        <h2 class="d-inline-block item-number">4</h2>
-                                        <p class="d-inline-block line-h">size</p>
-                                    </th>
-                                    <th>
-                                        <h2 class="d-inline-block item-number">46</h2>
-                                        <p class="d-inline-block line-h">pcs</p>
-                                    </th>
-                                    <th>
-                                        <h6 class="d-inline-block item-size">MAXI</h6>
-                                    </th>
-                                    <th>
-                                        <p class="d-inline-block item-size">7-18 KG</p>
-                                    </th>
-                                </tr>
-    
-                                <tr>
-                                    <th>
-                                        <h2 class="d-inline-block item-number">5</h2>
-                                        <p class="d-inline-block line-h">size</p>
-                                    </th>
-                                    <th>
-                                        <h2 class="d-inline-block item-number">40</h2>
-                                        <p class="d-inline-block line-h">pcs</p>
-                                    </th>
-                                    <th>
-                                        <h6 class="d-inline-block item-size">JUNIOR</h6>
-                                    </th>
-                                    <th>
-                                        <p class="d-inline-block item-size">11-25 KG</p>
-                                    </th>
-                                </tr>
-    
-                                <tr>
-                                    <th>
-                                        <h2 class="d-inline-block item-number">6</h2>
-                                        <p class="d-inline-block line-h">size</p>
-                                    </th>
-                                    <th>
-                                        <h2 class="d-inline-block item-number">36</h2>
-                                        <p class="d-inline-block line-h">pcs</p>
-                                    </th>
-                                    <th>
-                                        <h6 class="d-inline-block item-size">EXTRA LARGE</h6>
-                                    </th>
-                                    <th>
-                                        <p class="d-inline-block item-size">16+ KG</p>
-                                    </th>
-                                </tr>
-                            </table>
-
-                        </div>
-                    </div>
-                </div>
-                
-			</div>
-		</div>
-		<!-- end main text -->
-    </div>
 </div>
 
-
-
-<!-- section 0 mobile -->
-<div class="" id="section-mobile">
-<div class="container">
-		<div class="row">
-			<div class="col-12 text-center">
-                <div class="row px-4">
-                    <div class="col-lg-6 col-12">
-                            <h1 class="text-bold pt-0"><?= _PRO1_NAME ?></h1>
-                            <p><?= _PRO1_TITLE ?></p>
-                    </div>
-
-                    <div class="col-lg-6 col-12 mt-1">
-                        <div class="col-12 my-0 mx-auto">
-                            <table class="table table-condensed">
-                                <tr>
-                                    <th>
-                                        <h2 class="d-inline-block item-number">3</h2>
-                                        <p class="d-inline-block line-h">size</p>
-                                    </th>
-                                    <th>
-                                        <h2 class="d-inline-block item-number">54</h2>
-                                        <p class="d-inline-block line-h">pcs</p>
-                                    </th>
-                                    <th>
-                                        <h6 class="d-inline-block item-size">MIDI</h6>
-                                    </th>
-                                    <th>
-                                        <p class="d-inline-block item-size">4-9 KG</p>
-                                    </th>
-                                </tr>
-    
-                                <tr>
-                                    <th>
-                                        <h2 class="d-inline-block item-number">4</h2>
-                                        <p class="d-inline-block line-h">size</p>
-                                    </th>
-                                    <th>
-                                        <h2 class="d-inline-block item-number">46</h2>
-                                        <p class="d-inline-block line-h">pcs</p>
-                                    </th>
-                                    <th>
-                                        <h6 class="d-inline-block item-size">MAXI</h6>
-                                    </th>
-                                    <th>
-                                        <p class="d-inline-block item-size">7-18 KG</p>
-                                    </th>
-                                </tr>
-    
-                                <tr>
-                                    <th>
-                                        <h2 class="d-inline-block item-number">5</h2>
-                                        <p class="d-inline-block line-h">size</p>
-                                    </th>
-                                    <th>
-                                        <h2 class="d-inline-block item-number">40</h2>
-                                        <p class="d-inline-block line-h">pcs</p>
-                                    </th>
-                                    <th>
-                                        <h6 class="d-inline-block item-size">JUNIOR</h6>
-                                    </th>
-                                    <th>
-                                        <p class="d-inline-block item-size">11-25 KG</p>
-                                    </th>
-                                </tr>
-    
-                                <tr>
-                                    <th>
-                                        <h2 class="d-inline-block item-number">6</h2>
-                                        <p class="d-inline-block line-h">size</p>
-                                    </th>
-                                    <th>
-                                        <h2 class="d-inline-block item-number">36</h2>
-                                        <p class="d-inline-block line-h">pcs</p>
-                                    </th>
-                                    <th>
-                                        <h6 class="d-inline-block item-size">EXTRA LARGE</h6>
-                                    </th>
-                                    <th>
-                                        <p class="d-inline-block item-size">16+ KG</p>
-                                    </th>
-                                </tr>
-                            </table>
-
-                        </div>
-                    </div>
-                </div>
-			</div>
-		</div>
-		<!-- end main text -->
-    </div>
-</div>
 
 
 <!-- section 1 -->
@@ -342,9 +74,9 @@ include 'inc/nav.php';
     
         <div class="row product-contact-top mt-minus-5">
             <div class="col-12 col-md-12 text-center">
-                <a href="contact.php">
+                <a href="dielux.php">
                     <button type="button" class="col-5 col-md-3 col-lg-2 btn btn-black textColor-left">
-                <?= _CONTACT ?>
+                <?= _LEARN_MORE ?>
                 </button>
                 </a>
             </div>
@@ -356,127 +88,8 @@ include 'inc/nav.php';
         </a>
         </div>
 
-<div class="container-fluid">
-        <div class="row">
-			<div class="col-12 pt-120 text-center z-index title">
 
-                <div class="row align-items-end">
-                    
-                    <div class="col-6">
-                        <div class="col-7 my-0 mb-4 mx-auto">
-                            <table class="table table-condensed">
-                                <tr>
-                                    <th>
-                                        <h2 class="d-inline-block item-number">1</h2>
-                                        <p class="d-inline-block line-h">size</p>
-                                    </th>
-                                    <th>
-                                        <h2 class="d-inline-block item-number">86</h2>
-                                        <p class="d-inline-block line-h">pcs</p>
-                                    </th>
-                                    <th>
-                                        <h6 class="d-inline-block item-size">NEW BORN</h6>
-                                    </th>
-                                    <th>
-                                        <p class="d-inline-block item-size">2-5 KG</p>
-                                    </th>
-                                </tr>
-    
-                                <tr>
-                                    <th>
-                                        <h2 class="d-inline-block item-number">2</h2>
-                                        <p class="d-inline-block line-h">size</p>
-                                    </th>
-                                    <th>
-                                        <h2 class="d-inline-block item-number">82</h2>
-                                        <p class="d-inline-block line-h">pcs</p>
-                                    </th>
-                                    <th>
-                                        <h6 class="d-inline-block item-size">MINI</h6>
-                                    </th>
-                                    <th>
-                                        <p class="d-inline-block item-size">3-6 KG</p>
-                                    </th>
-                                </tr>
-                                
-                            </table>
-                            
-                        </div>
-                    </div>
-
-                    <div class="col-6">
-                        <div class="spec-item-left">
-                            <h1 class="text-bold pt-0 d-flex justify-content-start pl-4"><?= _PRO2_NAME ?></h1>
-                            <p><?= _PRO2_TITLE ?></p>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
 </div>
-</div>
-
-
-
-<!-- section 1 mobile -->
-<div class="" id="section-mobile">
-
-<div class="container">
-    <div class="row">
-			<div class="col-12 text-center">
-                <div class="row px-4">
-                    <div class="col-lg-6 col-12">
-                        <h1 class="text-bold pt-0"><?= _PRO2_NAME ?></h1>
-                        <p><?= _PRO2_TITLE ?></p>
-                    </div>
-
-                    <div class="col-lg-6 col-12 mt-5">
-                            <table class="table table-condensed">
-                                <tr>
-                                    <th>
-                                        <h2 class="d-inline-block item-number">1</h2>
-                                        <p class="d-inline-block line-h">size</p>
-                                    </th>
-                                    <th>
-                                        <h2 class="d-inline-block item-number">86</h2>
-                                        <p class="d-inline-block line-h">pcs</p>
-                                    </th>
-                                    <th>
-                                        <h6 class="d-inline-block item-size">NEW BORN</h6>
-                                    </th>
-                                    <th>
-                                        <p class="d-inline-block item-size">2-5 KG</p>
-                                    </th>
-                                </tr>
-    
-                                <tr>
-                                    <th>
-                                        <h2 class="d-inline-block item-number">2</h2>
-                                        <p class="d-inline-block line-h">size</p>
-                                    </th>
-                                    <th>
-                                        <h2 class="d-inline-block item-number">82</h2>
-                                        <p class="d-inline-block line-h">pcs</p>
-                                    </th>
-                                    <th>
-                                        <h6 class="d-inline-block item-size">MINI</h6>
-                                    </th>
-                                    <th>
-                                        <p class="d-inline-block item-size">3-6 KG</p>
-                                    </th>
-                                </tr>
-                            </table>
-                    </div>
-
-
-                </div>
-            </div>
-    </div>
-		<!-- end main text -->
-</div>
-</div>
-
 
 
 
@@ -501,9 +114,9 @@ include 'inc/nav.php';
 
     <div class="row product-contact-top mt-minus-5">
             <div class="col-12 col-md-12 text-center">
-                <a href="contact.php">
+                <a href="nelli.php">
                     <button type="button" class="col-5 col-md-3 col-lg-2 btn btn-black textColor-left">
-                <?= _CONTACT ?>
+                <?= _LEARN_MORE ?>
                 </button>
                 </a>
             </div>
@@ -514,67 +127,8 @@ include 'inc/nav.php';
         </a>
         </div>
 
-<div class="container-fluid">
-    <div class="row">
-			<div class="col-12 pt-120 text-center z-index title">
-                <div class="row align-items-end">
-                    <div class="col-6">
-                        <div class="description-content mr-top-265">
-                            <h1 class="text-bold pt-0 d-flex justify-content-end"><?= _PRO3_NAME ?></h1>
-                            <p><?= _PRO3_TITLE ?></p>
-                        </div>
-                        
-                    </div>
-                    <div class="col-6 mb-5">
-                        <div class="col-2 my-0 mx-auto">
-                            <table class="table table-condensed">
-                                <tr>
-                                    <th class="border-bottom-pcs">
-                                        <h2 class="d-inline-block item-number mb-0">10</h2>
-                                        <p class="d-inline-block line-h mb-0">pcs</p>
-                                    </th>
-                                </tr>
-                            </table>
-
-                        </div>
-                    </div>
-                </div>
-                
-			</div>
-        </div>
-        </div>
 </div>
 
-
-
-<!-- section 2 mobile -->
-<div class="" id="section-mobile">
-  <!-- main text -->
-<div class="container">
-    <div class="row">
-			<div class="col-12 text-center">
-                <div class="row px-4">
-                    <div class="col-lg-6 col-12">
-                    <h1 class="text-bold pt-0 d-flex justify-content-end"><?= _PRO3_NAME ?></h1>
-                            <p><?= _PRO3_TITLE ?></p>
-                    </div>
-
-                    <div class="col-lg-6 col-12 mt-5">
-                            <table class="table table-condensed">
-                                <tr>
-                                    <th class="border-bottom-pcs">
-                                        <h2 class="d-inline-block item-number mb-0">10</h2>
-                                        <p class="d-inline-block line-h mb-0">pcs</p>
-                                    </th>
-                                </tr>
-                            </table>
-                    </div>
-                </div>
-            </div>
-        </div>
-		<!-- end main text -->
-    </div>
-</div>
 
 
 
@@ -599,9 +153,9 @@ include 'inc/nav.php';
 
     <div class="row product-contact-top mt-minus-5">
             <div class="col-12 col-md-12 text-center">
-                <a href="contact.php">
+                <a href="sahara.php">
                     <button type="button" class="col-5 col-md-3 col-lg-2 btn btn-black textColor-left">
-                <?= _CONTACT ?>
+                <?= _LEARN_MORE ?>
                 </button>
                 </a>
             </div>
@@ -613,134 +167,7 @@ include 'inc/nav.php';
             </a>
         </div>
 
-<div class="container-fluid">
-    <div class="row">
-			<div class="col-12 pt-120 text-center z-index title">
-                <div class="row align-items-end">
-                    <div class="col-6">
-                        <div class="col-5 justify-content-start scr3-item-pcs">
-                            <table class="table table-condensed">
-                                <tr class="border-bottom-pcs">
-                                    <th>
-                                        <h6 class="d-inline-block item-size mb-0">CLASSIC</h6>
-                                    </th>
-                                    <th>
-                                        <h2 class="d-inline-block item-number mb-0">10</h2>
-                                        <p class="d-inline-block line-h mb-0">pcs</p>
-                                    </th>
-                                </tr>
-                            </table>
-                        </div>
-                    </div>
 
-                    <div class="col-6">
-                        <div class="description-content spec-item-left mr-top-265">
-                            <h1 class="text-bold pt-0 d-flex justify-content-start pl-4"><?= _PRO4_NAME ?></h1>
-                            <p><?= _PRO4_TITLE ?></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 </div>
-
-
-
-<!-- section 3 mobile -->
-<div class="" id="section-mobile">
-  <!-- main text -->
-<div class="container">
-    <div class="row">
-			<div class="col-12 text-center">
-                <div class="row mt-90 px-4">
-                    <div class="col-lg-6 col-12">
-                    <h1 class="text-bold pt-0 d-flex justify-content-start pl-4"><?= _PRO4_NAME ?></h1>
-                            <p><?= _PRO4_TITLE ?></p>
-                    </div>
-
-                    <div class="col-lg-6 col-12 mt-5">
-                            <table class="table table-condensed">
-                                <tr class="border-bottom-pcs">
-                                    <th>
-                                        <h6 class="d-inline-block item-size mb-0">CLASSIC</h6>
-                                    </th>
-                                    <th>
-                                        <h2 class="d-inline-block item-number mb-0">10</h2>
-                                        <p class="d-inline-block line-h mb-0">pcs</p>
-                                    </th>
-                                </tr>
-                                
-                            </table>
-                    </div>
-                </div>
-            </div>
-        </div>
-		<!-- end main text -->
-    </div>
-</div>
-
-
-<!-- footer -->
-<div class="section sct8">
-    <h1 class="text-center" style="color: gray;">ООО World of Hygienic<p class="yellow mt-2">Copyright © 2021</p>
-            <div class="row pt-120">
-                <div class="col-4 text-center">
-                    <a href="https://www.instagram.com/world.of.hygienic/">
-                        <i class="fab fa-instagram social-icon"></i>
-                    </a>
-                </div>
-                <div class="col-4 text-center">
-                    <a href="https://www.facebook.com/World_of_Hygiene/">
-                        <i class="fab fa-facebook-f social-icon"></i>
-                    </a>
-                </div>
-                <!-- <div class="col-3 text-center">
-                    <a href="https://www.youtube.com/channel/UCCHvBrlmF-gCUR60zFiAexw">
-                        <i class="fab fa-youtube social-icon"></i>
-                    </a>
-                </div> -->
-                <div class="col-4 text-center">
-                    <a href="https://t.me/worldofhygiene/">
-                        <i class="fab fa-telegram social-icon"></i>
-                    </a>
-                </div>
-            </div>
-    </h1>
-<div class="row pt-120">
-    <div class="col-md-6 col-12 d-flex justify-content-center">
-        <a href="https://www.google.com/maps/place/%D0%9E%D1%84%D0%B8%D1%81+%D0%B1%D1%80%D0%B5%D0%BD%D0%B4%D0%B0+%22LALAKU%22,+%D0%9E%D0%9E%D0%9E+%22SOF+GIGIENIK%22/@41.3247619,69.3359945,21z/data=!4m13!1m7!3m6!1s0x38aef457cc74f7e5:0x5142b528b7c5e4d8!2s35+Khirmontepa+2-th+Passage,+Tashkent,+Uzbekistan!3b1!8m2!3d41.3249853!4d69.3360588!3m4!1s0x38aef51bb28be239:0x9e3b62489b4f1490!8m2!3d41.3247974!4d69.3360713">
-        <i class="fas fa-map-marker-alt footer-icon mr-2"></i>
-        <p class="d-inline">Toshkent sh., Mirzo Ulug‘bek tumani, Xirmontepa 2-tor, 48</p>
-        </a>
-    </div>
-    <div class="col-md-6 col-12 mt-4 mt-md-0 mt-lg-0 d-flex justify-content-center">
-        <a href="tel:+998 94 480 00 77">
-            <i class="fas fa-phone-alt footer-icon mr-2"></i>
-            <p class="d-inline">+998 90 550 06 01</p>
-        </a>
-    </div>
-</div>
-		
-		<div class="text-center mt-5">
-		<a href="#firstPage">	
-			<img class="arrow-up animate-arrow" src="style/icons/arrow-up.svg" alt="up">
-        </a>
-        </div>
-</div>
-
-
-
-	</div>
-</div>
-<style>
-.container {
-    height: 100%;
-}
-</style>
 <!-- end whole page container -->
-	<script src="style/js/index.js"></script>
-	<script src="style/js/config-scrolling.js"></script>
-</body>
-
-</html>
+<?php include_once "inc/footer.php"; ?>

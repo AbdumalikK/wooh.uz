@@ -4,6 +4,7 @@ $username = "root";
 $password = "root";
 $dbname = "lalakucatalog";
 
+$homeurl = $_SERVER['SERVER_NAME'];
 
 try {
     $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);

@@ -92,7 +92,7 @@ if($stmt->execute($params)) {
 					<!-- navbar -->
 				   <nav class="navbar fixed-top">
 							   <div class="logo">
-								   <a href="index.php"><img src="style/logo.svg" width="70" height="70" alt="logo" id="logo"></a>
+								   <a href="index.php"><img src="style/logo.png" width="70" height="70" alt="logo" id="logo"></a>
 							   </div>
 			
 							<button type="button" class="btn burger">	
