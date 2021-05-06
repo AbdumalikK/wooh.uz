@@ -30,8 +30,15 @@ include "inc/nav.php";
       height: 320px!important;
     }
     .container {
-      margin-top: 30px;
+      margin-top: 60px;
     }
+  }
+  .exzoom_prev_btn:hover, .exzoom_next_btn:hover {
+    background-color: #952883!important;
+  }
+  .exzoom_prev_btn, .exzoom_next_btn {
+    /* background-color: #952883!important; */
+    border-radius: 20px;
   }
 </style>
 
