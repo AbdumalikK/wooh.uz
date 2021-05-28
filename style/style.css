@@ -260,11 +260,11 @@ a:hover {
 	animation: menu-links 1s;
 }
 .footer {
-	height: 20%;
+	height: 10%;
 	background-color: #952883;
 }
 .mt-footer {
-	margin-top: 400px;
+	margin-top: 300px;
 }
 #form_lang {
 	/* position: absolute;
@@ -278,7 +278,7 @@ a:hover {
 .lang-position {
 	position: absolute;
 	top: 16%;
-	left: 23%;
+	left: 33%;
 	z-index: 4;
 }
 @media screen and (max-width: 570px) {
@@ -290,7 +290,7 @@ a:hover {
 	}
 	.lang-position {
 		top: 27%;
-		left: 0%;
+		left: 14%;
 	}
 	.title {
 		position: absolute;

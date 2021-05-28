@@ -92,7 +92,7 @@ if($stmt->execute($params)) {
 					<!-- navbar -->
 				   <nav class="navbar fixed-top">
 							   <div class="logo">
-								   <a href="index.php"><img src="style/logo.png" width="70" height="70" alt="logo" id="logo"></a>
+								   <a href="index.php"><img src="style/wooh.png" width="70" height="70" alt="logo" id="logo"></a>
 							   </div>
 			
 							<button type="button" class="btn burger">	
@@ -109,7 +109,7 @@ if($stmt->execute($params)) {
 								<ul class="main-nav">
 									<!-- <div class="row mr-0"> -->
 										<div class="my-4 px-0 logo">
-											<img src="style/logo.svg" alt="logo">
+											<img src="style/logo-black.png" alt="logo">
 										</div>
 									<!-- </div> -->
 					
@@ -186,20 +186,6 @@ Tashkent, Uzbekistan</p>
         </div>    
     </div>
     <!-- end container titles -->
-    <!-- validation script -->
-    <script>
-    function validateemail()  
-            {  
-            var x=document.contact.email.value;  
-            var atposition=x.indexOf("@");  
-            var dotposition=x.lastIndexOf(".");  
-            if (atposition<1 || dotposition<atposition+2 || dotposition+2>=x.length){  
-              alert("Please enter a valid e-mail address!");  
-              return false;  
-              }  
-            }  
-    </script>
-    <!-- end valid -->
     
     <!-- form contact -->
 <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" name="contact" method="post" onsubmit="return validateemail();">
@@ -220,5 +206,6 @@ Tashkent, Uzbekistan</p>
 </form>
     <!-- end form -->
 <script src="style/js/index.js"></script>
+
 </body>
 </html>

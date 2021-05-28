@@ -8,6 +8,7 @@
 	<!-- <meta name="author" content="Abdumalik Karimov"> -->
 	<meta name="description" content="Wooh.uz World of hygienic, gigienik mahsulotlar barchasi bizda">
 	<meta name="keywords" content="wooh.uz, wooh, woohuz, worldofhygienic, hygienic, delux, deluxmama, lalaku, gigienik">
+    <link rel="shortcut icon" type="image/x-icon" href="../style/favicon.png">
 	<link rel="stylesheet" href="style/bootstrap4/css/bootstrap.min.css">
     <!-- <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/css/products.css"> -->
