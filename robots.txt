@@ -1,0 +1,3 @@
+User-Agent: *
+Disallow:
+Sitemap: https://wooh.uz/sitemap.xml

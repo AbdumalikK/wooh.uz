@@ -1,7 +1,7 @@
 <section class="sct8 section">
 	<div class="row">
 		<div class="col-12 text-center">
-		<h1 class="text-center" style="color: gray;">ООО World of Hygienic<p class="yellow mt-2">Copyright © 2021</p>
+		<p class="text-center h1" style="color: gray;">ООО World of Hygienic<p class="yellow mt-2">Copyright © 2021</p>
 
 			<!-- <p class="wd-1020 p-3">
 				Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
@@ -10,17 +10,17 @@
 	</div>
 		<div class="row mt-footer footer">
                 <div class="col-4 text-center d-flex align-items-center justify-content-center">
-					<a href="https://www.instagram.com/world.of.hygienic/">
+					<a href="https://www.instagram.com/world.of.hygienic">
                         <i class="fab fa-instagram social-icon"></i>
                     </a>
                 </div>
                 <div class="col-4 text-center d-flex align-items-center justify-content-center">
-					<a href="https://www.facebook.com/World_of_Hygiene/">
+					<a href="https://www.facebook.com/World_of_Hygiene">
                         <i class="fab fa-facebook-f social-icon"></i>
                     </a>
                 </div>
                 <div class="col-4 text-center d-flex align-items-center justify-content-center">
-					<a href="https://t.me/worldofhygiene/">
+					<a href="https://t.me/worldofhygiene">
                         <i class="fab fa-youtube social-icon"></i>
                     </a>
                 </div>

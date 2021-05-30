@@ -114,7 +114,7 @@ echo '<div id="fullpage">
 	<!-- <div class="row"> -->
 		<!-- <div class="col-12 text-center"> -->
 		<div class="d-block bg-title1 text-center">
-			<h1 class="text-bold pt-120 d-inline"><?= _PRODUCT1_NAME ?></h1>
+			<p class="text-bold pt-120 d-inline"><?= _PRODUCT1_NAME ?></p>
 		</div>
 			<!-- <p class="wd-1020 p-3">
 			<?= _PRODUCT1_TITLE ?>
@@ -148,7 +148,7 @@ echo '<div id="fullpage">
 	<div class="row">
 		<div class="col-12 text-center">
 		<div class="d-block bg-title2">
-			<h1 class="text-bold pt-120 d-inline"><?= _PRODUCT2_NAME ?></h1>
+			<p class="text-bold pt-120 d-inline"><?= _PRODUCT2_NAME ?></p>
 		</div>
 			<!-- <p class="wd-1020 p-3">
 			<?= _PRODUCT2_TITLE ?>
@@ -179,7 +179,7 @@ echo '<div id="fullpage">
 	<div class="row">
 		<div class="col-12 text-center">
 		<div class="d-block bg-title2">
-			<h1 class="text-bold pt-120 d-inline"><?= _PRODUCT2_NAME ?></h1>
+			<p class="text-bold pt-120 d-inline"><?= _PRODUCT2_NAME ?></p>
 		</div>
 			<!-- <p class="wd-1020 p-3">
 			<?= _PRODUCT2_TITLE ?>
@@ -210,7 +210,7 @@ echo '<div id="fullpage">
 	<div class="row">
 		<div class="col-12 text-center">
 		<div class="d-block bg-title3">
-			<h1 class="text-bold pt-120 d-inline">Nelli</h1>
+			<p class="text-bold pt-120 d-inline">Nelli</p>
 		</div>
 			<!-- <p class="wd-1020 p-3">
 				Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
@@ -241,7 +241,7 @@ echo '<div id="fullpage">
 	<div class="row">
 		<div class="col-12 text-center">
 		<div class="d-block bg-title3">
-			<h1 class="text-bold pt-120 d-inline">Nelli</h1>
+			<p class="text-bold pt-120 d-inline">Nelli</p>
 		</div>
 			<!-- <p class="wd-1020 p-3">
 				Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
@@ -272,7 +272,7 @@ echo '<div id="fullpage">
 	<div class="row">
 		<div class="col-12 text-center">
 		<div class="d-block bg-title4">
-			<h1 class="text-bold pt-120 d-inline">Sahara</h1>
+			<p class="text-bold pt-120 d-inline">Sahara</p>
 		</div>
 			<!-- <p class="wd-1020 p-3">
 				Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
@@ -303,7 +303,7 @@ echo '<div id="fullpage">
 	<div class="row">
 		<div class="col-12 text-center">
 		<div class="d-block bg-title4">
-			<h1 class="text-bold pt-120 d-inline">Sahara</h1>
+			<p class="text-bold pt-120 d-inline">Sahara</p>
 		</div>
 			<!-- <p class="wd-1020 p-3">
 				Lorem ipsum dolor sit amet, consetetur sadipscing elitr.

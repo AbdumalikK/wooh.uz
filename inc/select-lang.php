@@ -4,9 +4,9 @@
 		<div class="col-12">
 			<form method="GET" action="" id="form_lang">
 				<div class="lang-card text-center">
-					<h1>Sofgigienik saytiga hush kelibsiz</h1>
+					<p class="h1">Sofgigienik saytiga hush kelibsiz</p>
 					<hr>
-					<h2>Tilni tanlang</h2>
+					<p class="h2">Tilni tanlang</p>
 					<button type="submit" value="uz" name="lang" class="btn d-block m-auto" id="lang" <?php if(isset($_SESSION['lang']) && $_SESSION['lang'] === 'uz'); ?>>
 						<p class="lang-size">Uzbek tili</p>
 					</button>

@@ -2,12 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>WOOH.UZ</title>
+    <title>WOOH Ayollar uchun gigienik mahsulotlar</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
 	<!-- <meta name="author" content="Abdumalik Karimov"> -->
-	<meta name="description" content="Wooh.uz World of hygienic, gigienik mahsulotlar barchasi bizda">
-	<meta name="keywords" content="wooh.uz, wooh, woohuz, worldofhygienic, hygienic, delux, deluxmama, lalaku, gigienik">
+	<meta name="description" content="ООО World of Hygienic rasmiy veb-sayti: ishlab chiqaruvchi va mahsulotlar to'g'risida to'liq ma'lumot (ayollar uchun turli xildagi gigienik mahsulotlari)">
+	<meta name="keywords" content="worldofhygienic, hygienic, gigenik, ayollar, ayol, mahsulot, woohuz, wooh.uz, wooh, hygienic, dielux, dieluxmama, lalaku, gigienik, sahara, Nelli, lalakuuz, sofgigienik, taglik">
     <link rel="shortcut icon" type="image/x-icon" href="../style/favicon.png">
 	<link rel="stylesheet" href="style/bootstrap4/css/bootstrap.min.css">
     <!-- <link rel="stylesheet" href="style/style.css">
